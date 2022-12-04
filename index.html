@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        
+        <title>Frontend Mentor | Tip calculator app</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+            .attribution { font-size: 11px; text-align: center; }
+            .attribution a { color: hsl(228, 45%, 44%); }
+        </style>
+    </head>
+    <body>
+        <h1>SPLI<br>TTER</h1>    
+
+        <div class="container">
+            <div class="bill-calculator">
+                <label for="bill-price">Bill</label>
+                <div class="bill-input-group">
+                    <span></span>
+                    <input type="text" name="bill-price" id="bill-price" value="0">
+                </div>
+                
+                <label>Select Tip %</label>
+                <div class="tip-percentage-group">
+                    <button>5%</button>
+                    <button>10%</button>
+                    <button>15%</button>
+                    <button>25%</button>
+                    <button>50%</button>
+                    <input placeholder="Custom">
+                </div>
+                
+
+                <label>Number of People</label>
+                <div class="people-group">
+                    <span></span>
+                    <input type="number" name="people-group" id="people-group" value="0">
+                </div>
+            </div>
+            
+            <div class="bill-details">
+                <div class="details">
+                    <p>Tip Amount<span>/ person</span></p>
+                    <p>$0.00</p>
+                </div>
+                
+                <div class="details">
+                    <p>Total<span>/ person</span></p>
+                    <p>$0.00</p>
+                </div>
+            
+                Reset
+            </div>
+        </div>
+    </body>
+</html>
