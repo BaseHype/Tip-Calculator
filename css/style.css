@@ -19,6 +19,7 @@ body {
     flex-direction: column;
     font-family: 'Space Mono', monospace, sans-serif;
     font-size: 12px;
+    font-weight: 700;
     color: hsl(186, 14%, 43%);
 }
 
