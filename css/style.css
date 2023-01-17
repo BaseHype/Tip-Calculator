@@ -199,4 +199,8 @@ span {
         width: 100%;
         min-width: 250px;
     }
+
+    .bill-calculator svg {
+        margin-top: 0;
+    }
 }
